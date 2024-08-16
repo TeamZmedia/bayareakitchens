@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bay Area Kitchens</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
+
+        body {
+            background-image: url('background.png');
+            background-size: cover;
+            font-family: 'Great Vibes', cursive;
+            color: gold;
+            text-align: center;
+            margin: 0;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            height: 100vh;
+        }
+
+        h1 {
+            font-size: 4rem;
+            margin-top: 20px;
+        }
+
+        .contact-info {
+            margin-bottom: 20px;
+        }
+
+        .contact-info h2 {
+            margin: 0;
+        }
+
+        .phone-number {
+            font-size: 2.5rem;
+            color: black;
+            font-weight: bold;
+        }
+
+        audio {
+            display: none;
+        }
+    </style>
+</head>
+<body>
+    <h1>Bay Area Kitchens</h1>
+
+    <div class="contact-info">
+        <h2>Contact Us Today</h2>
+        <p class="phone-number">281.338.2737</p>
+    </div>
+
+    <audio autoplay loop>
+        <source src="background.mp3" type="audio/mpeg">
+        Your browser does not support the audio element.
+    </audio>
+</body>
+</html>
